@@ -18,7 +18,7 @@ img {
 }
 
 body {
-	font-family: 'font', sans-serif;
+	font-family: Arial, Verdana, sans-serif;
 }
 
 .main-content {
@@ -43,6 +43,18 @@ body {
 .link {
   display: inline-block;
   padding: 24px 49px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
+}
+
+.link__download {
+  display: inline-block;
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+  background: transparent url('../img/download.png') no-repeat left center / contain;
 }
 
 .link:not(:last-child) {
